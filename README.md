@@ -48,9 +48,22 @@ where:
 
 This repository is automatically generated from [google/material-design-icons](https://github.com/google/material-design-icons) repository.
 
-If you want to build custom icon size, build script is available in build/png.js
-
 To build icons you need to install phantomjs. On OSX you can install it using HomeBrew `brew install phantomjs`
+
+If you want to build custom icons or different size or different color, build script is available in build/png.js. Edit "configuration" section of png.js to change size or colors.
+
+To build icons run this:
+
+```
+node build/png
+```
+
+
+Script will render only icons that are missing. To rebuild entire PNG set, run
+```
+node build/png --overwrite
+```
+
 
 ## License
 
