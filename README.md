@@ -24,7 +24,10 @@ This repository includes several variations for each icon:
 * round
 * twotone
 
-This repository includes only icons in PNG format. Icons are available in SVG format in [cyberalien/material-design-icons-updated-png](https://github.com/cyberalien/material-design-icons-updated) repository.
+This repository includes only icons in PNG format. Other available formats are in different repositories:
+
+* SVG: [material-icons](https://github.com/material-icons/material-icons)
+* Font: [material-icons-font](https://github.com/material-icons/material-icons-font)
 
 ## PNG
 
@@ -33,7 +36,7 @@ PNG icons are available as black (in png/black) and white (in png/white) in 24x2
 This repository is available on github.io. You can link to any PNG file like this:
 
 ```
-https://cyberalien.github.io/google-material-design-icons-updated-png/png/{color}/{name}/{family}{suffix}.svg
+https://material-icons.github.io/material-icons-png/png/{color}/{name}/{family}{suffix}.svg
 ```
 
 

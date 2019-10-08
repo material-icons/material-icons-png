@@ -17,9 +17,9 @@ const phantom = require('@iconify/tools/src/export/phantomjs');
 
 const root = path.dirname(path.dirname(__filename));
 
-// Change this directory to location of material-design-icons-updated package's root directory
-// Default location of material-design-icons-updated is ../material-design-icons-updated
-const sourceDir = path.dirname(root) + '/material-design-icons-updated';
+// Change this directory to location of material-icons package's root directory
+// Default location of material-icons is ../material-icons
+const sourceDir = path.dirname(root) + '/material-icons';
 const outputDir = root + '/png';
 
 // Configuration
